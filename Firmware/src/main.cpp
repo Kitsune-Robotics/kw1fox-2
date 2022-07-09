@@ -9,8 +9,6 @@
 
 #include <Arduino.h>
 
-#include <Arduino.h>
-
 #include <Nokia_LCD.h>
 
 Nokia_LCD lcd(7 /* CLK */, 6 /* DIN */, 5 /* DC */, 4 /* CE */, 3 /* RST */);
