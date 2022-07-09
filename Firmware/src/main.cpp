@@ -9,36 +9,36 @@
 
 #include <Arduino.h>
 
-// PCD8544 lcd = PCD8544(6, 7, 4, 8, 5);
+#include <Arduino.h>
 
-void setup(void)
+#include <Nokia_LCD.h>
+
+Nokia_LCD lcd(7 /* CLK */, 6 /* DIN */, 5 /* DC */, 4 /* CE */, 3 /* RST */);
+
+// Based on https://github.com/platisd/nokia-5110-lcd-library/tree/master/examples/Nokia_LCD_Demo
+
+void setup()
 {
-    // Restart time
-    delay(4000);
+    // Initialize the screen
+    lcd.begin();
+    // Set the contrast
 
-    Serial.println(MOTD);
-    // // initialize the digital pin as an output.
-    // pinMode(16, OUTPUT);
+    lcd.setContrast(60); // Good values are usualy between 40 and 60
 
-    // lcd.begin(84, 48);
+    // Clear the screen by filling it with black pixels
+    lcd.clear(true);
+
+    delay(2000);
+
+    // Set the cursor on the beginning of the 6th row (the last one)
+    lcd.setCursor(0, 5);
+
+    // Write something on the specific row with inverted color
+    lcd.setInverted(true);
+    lcd.print("Hello world!");
 }
 
-// the loop routine runs over and over again forever:
 void loop()
 {
     delay(200);
-    // digitalWrite(16, HIGH); // turn the LED on (HIGH is the voltage level)
-    // Serial.println("High");
-    // delay(1000);           // wait for a second
-    // digitalWrite(16, LOW); // turn the LED off by making the voltage LOW
-    // Serial.println("Low");
-    // delay(1000); // wait for a second
-
-    // lcd.setCursor(0, 0);
-    // lcd.print("   WELCOME  ");
-    // lcd.setCursor(0, 1);
-    // lcd.print("     To");
-    // lcd.setCursor(0, 2);
-    // lcd.print("ElectronicsHobbyists.com");
-    // delay(200);
 }
