@@ -11,6 +11,8 @@
 
 #include <Nokia_LCD.h>
 
+// GND, Lamp, VCC, CLK, DIN, DC, CE, RST
+
 Nokia_LCD lcd(7 /* CLK */, 6 /* DIN */, 5 /* DC */, 4 /* CE */, 3 /* RST */);
 
 // Based on https://github.com/platisd/nokia-5110-lcd-library/tree/master/examples/Nokia_LCD_Demo
@@ -27,16 +29,16 @@ void setup()
     lcd.clear(true);
 
     delay(2000);
+}
 
+void loop()
+{
     // Set the cursor on the beginning of the 6th row (the last one)
     lcd.setCursor(0, 5);
 
     // Write something on the specific row with inverted color
     lcd.setInverted(true);
     lcd.print("Hello world!");
-}
 
-void loop()
-{
-    delay(200);
+    delay(50);
 }
