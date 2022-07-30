@@ -26,15 +26,6 @@
   )
 
   (symbol_instances
-    (path "/e4a26974-393b-4a41-b021-56885f23f4ce/d95d59d5-4651-4558-954f-284eb375647e"
-      (reference "#PWR0201") (unit 1) (value "+4V") (footprint "")
-    )
-    (path "/e4a26974-393b-4a41-b021-56885f23f4ce/f67c5c6e-c673-44a4-af5a-df7fcdaf870d"
-      (reference "#PWR0202") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/e4a26974-393b-4a41-b021-56885f23f4ce/af75442c-00ed-407c-a70c-2fa9eb9ba961"
-      (reference "#PWR0203") (unit 1) (value "+4V") (footprint "")
-    )
     (path "/e4a26974-393b-4a41-b021-56885f23f4ce/9621d6e5-cfb7-4954-bcd7-ffb29212ebd8"
       (reference "#PWR0204") (unit 1) (value "GND") (footprint "")
     )
@@ -53,11 +44,11 @@
     (path "/e4a26974-393b-4a41-b021-56885f23f4ce/72c90ee1-02b3-427a-a765-0c3b2b998fc1"
       (reference "#PWR0209") (unit 1) (value "GND") (footprint "")
     )
-    (path "/e4a26974-393b-4a41-b021-56885f23f4ce/1a1ef184-e16c-4b2d-b4fb-7734caaf31a2"
-      (reference "C201") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    (path "/e4a26974-393b-4a41-b021-56885f23f4ce/86372169-1724-4a03-80ab-e5da1b5a62c2"
+      (reference "C?") (unit 1) (value "100p") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
-    (path "/e4a26974-393b-4a41-b021-56885f23f4ce/742f002e-c706-4923-ba69-0aa843bd73fe"
-      (reference "C202") (unit 1) (value "100p") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    (path "/e4a26974-393b-4a41-b021-56885f23f4ce/bf54bad0-10a0-4d3b-be00-02a7b14e2ef8"
+      (reference "C?") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/e4a26974-393b-4a41-b021-56885f23f4ce/c33dbf77-de8f-4986-a43f-ca29c1159491"
       (reference "D201") (unit 1) (value "RX") (footprint "LED_SMD:LED_0805_2012Metric")
