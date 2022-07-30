@@ -1,0 +1,78 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid fd5688ba-9e82-44d0-92df-cc8a878642c7)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 121.285 70.485) (size 28.575 46.355) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid e4a26974-393b-4a41-b021-56885f23f4ce)
+    (property "Sheet name" "APRN Modem" (id 0) (at 121.285 69.7734 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "APRNModem.kicad_sch" (id 1) (at 121.285 117.4246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/e4a26974-393b-4a41-b021-56885f23f4ce" (page "2"))
+  )
+
+  (symbol_instances
+    (path "/e4a26974-393b-4a41-b021-56885f23f4ce/72c90ee1-02b3-427a-a765-0c3b2b998fc1"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/e4a26974-393b-4a41-b021-56885f23f4ce/92bfef77-fa2f-4c1f-ab22-b86a7cde9d09"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/e4a26974-393b-4a41-b021-56885f23f4ce/9621d6e5-cfb7-4954-bcd7-ffb29212ebd8"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/e4a26974-393b-4a41-b021-56885f23f4ce/af75442c-00ed-407c-a70c-2fa9eb9ba961"
+      (reference "#PWR?") (unit 1) (value "+4V") (footprint "")
+    )
+    (path "/e4a26974-393b-4a41-b021-56885f23f4ce/b929f3cf-f3f8-41c2-8955-c0c6192d91e0"
+      (reference "#PWR?") (unit 1) (value "+4V") (footprint "")
+    )
+    (path "/e4a26974-393b-4a41-b021-56885f23f4ce/bb4e4278-a9de-49c8-9c36-a84b7605c697"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/e4a26974-393b-4a41-b021-56885f23f4ce/d95d59d5-4651-4558-954f-284eb375647e"
+      (reference "#PWR?") (unit 1) (value "+4V") (footprint "")
+    )
+    (path "/e4a26974-393b-4a41-b021-56885f23f4ce/f2c0f873-24c9-4b2e-8b44-490885f0b47d"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/e4a26974-393b-4a41-b021-56885f23f4ce/f67c5c6e-c673-44a4-af5a-df7fcdaf870d"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/e4a26974-393b-4a41-b021-56885f23f4ce/1a1ef184-e16c-4b2d-b4fb-7734caaf31a2"
+      (reference "C?") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/e4a26974-393b-4a41-b021-56885f23f4ce/742f002e-c706-4923-ba69-0aa843bd73fe"
+      (reference "C?") (unit 1) (value "100p") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/e4a26974-393b-4a41-b021-56885f23f4ce/c33dbf77-de8f-4986-a43f-ca29c1159491"
+      (reference "D?") (unit 1) (value "RX") (footprint "LED_SMD:LED_0805_2012Metric")
+    )
+    (path "/e4a26974-393b-4a41-b021-56885f23f4ce/fa29940b-7a61-4df9-901e-4d04cf634e55"
+      (reference "FL?") (unit 1) (value "LFCN-490") (footprint "Filter:Filter_Mini-Circuits_FV1206")
+    )
+    (path "/e4a26974-393b-4a41-b021-56885f23f4ce/b52a45ba-9da6-4c20-9839-fcd5d7075e22"
+      (reference "J?") (unit 1) (value "Conn_Coaxial") (footprint "Connector_Coaxial:SMA_Amphenol_132291_Vertical")
+    )
+    (path "/e4a26974-393b-4a41-b021-56885f23f4ce/12606799-4969-48fe-8fbc-0756f39260a6"
+      (reference "R?") (unit 1) (value "2K2") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/e4a26974-393b-4a41-b021-56885f23f4ce/6573725e-f9e6-4a24-91ae-d5a8b834ca14"
+      (reference "U?") (unit 1) (value "DRA818V") (footprint "KenwoodFox:DRA818V")
+    )
+  )
+)
