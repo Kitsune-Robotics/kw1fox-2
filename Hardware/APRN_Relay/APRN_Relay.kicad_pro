@@ -323,7 +323,11 @@
     ],
     [
       "e4a26974-393b-4a41-b021-56885f23f4ce",
-      "APRN Modem"
+      "Modem"
+    ],
+    [
+      "b3e8c470-c55e-46e8-9579-d406ff6be8fa",
+      "VS1003"
     ]
   ],
   "text_variables": {}
