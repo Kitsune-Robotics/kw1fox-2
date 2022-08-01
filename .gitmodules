@@ -1,3 +1,3 @@
-[submodule "Hardware/APRN_Relay/Libraries/kenwoodfox-kicad-libraries"]
-	path = Hardware/APRN_Relay/Libraries/kenwoodfox-kicad-libraries
+[submodule "Hardware/APRN_Modem/Libraries/kenwoodfox-kicad-libraries"]
+	path = Hardware/APRN_Modem/Libraries/kenwoodfox-kicad-libraries
 	url = https://github.com/KenwoodFox/kenwoodfox-kicad-libraries.git
