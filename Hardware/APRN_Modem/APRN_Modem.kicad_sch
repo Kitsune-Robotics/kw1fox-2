@@ -99,7 +99,7 @@
       (reference "FL301") (unit 1) (value "LFCN-490") (footprint "Filter:Filter_Mini-Circuits_FV1206")
     )
     (path "/35b16735-6659-45b2-a2c2-4d9515250654/b04df681-6dec-433d-a598-c6a5a470d5ab"
-      (reference "J301") (unit 1) (value "Conn_Coaxial") (footprint "Connector_Coaxial:SMA_Amphenol_132291_Vertical")
+      (reference "J301") (unit 1) (value "Conn_Coaxial") (footprint "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount")
     )
     (path "/7798c035-fc06-4ed4-8ff6-13cdb91fba95/96a4a102-d248-4c40-999c-c18111c2b898"
       (reference "R201") (unit 1) (value "100K") (footprint "Resistor_SMD:R_0805_2012Metric")
