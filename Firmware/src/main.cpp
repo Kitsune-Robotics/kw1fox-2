@@ -9,12 +9,14 @@
 
 #include <Arduino.h>
 
-#include <FreeRTOS.h>
+// #include <FreeRTOS.h>
 
 void setup()
 {
-    // Serial.begin();
+    Serial.begin();
     Serial.println("Hello world.");
+
+    pinMode(16, OUTPUT);
 }
 
 void loop()
@@ -22,4 +24,5 @@ void loop()
     Serial.println("Greatness awaits..");
 
     delay(100);
+    digitalWrite(16, HIGH);
 }

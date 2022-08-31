@@ -37,3 +37,12 @@ debug: flash monitor
 
 monitor:
 	pio device monitor --port $(SERIAL_DEV) --filter=direct --filter=time
+
+# Remote versions of the above
+flash-remote:
+	pio remote --agent EmbedDesk run --target upload
+
+monitor-remote:
+	pio remote --agent EmbedDesk device monitor
+
+debug-remote: flash-remote monitor-remote
