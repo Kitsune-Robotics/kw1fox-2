@@ -1,0 +1,3 @@
+[submodule "Hardware/APRN_Relay/Libraries/--force"]
+	path = Hardware/APRN_Relay/Libraries/--force
+	url = https://github.com/KenwoodFox/kenwoodfox-kicad-libraries.git
