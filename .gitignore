@@ -13,3 +13,6 @@ __pycache__
 
 # Dev
 .vscode
+
+# Kicad
+fp-info-cache
