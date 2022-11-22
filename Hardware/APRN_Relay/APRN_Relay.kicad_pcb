@@ -2162,6 +2162,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/Resources/RaspberryPiZeroW.STEP"
+      (offset (xyz -10.5 -24.5 10.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 90))
+    )
   )
 
   (footprint "LED_THT:LED_D3.0mm" (layer "F.Cu")
