@@ -3162,7 +3162,7 @@
     (property "Reference" "R103" (id 0) (at 226.695 99.06 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "100R" (id 1) (at 226.695 101.6 0)
+    (property "Value" "0.1Ω" (id 1) (at 226.695 101.6 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Resistor_SMD:R_2512_6332Metric" (id 2) (at 224.79 100.33 0)
@@ -3473,7 +3473,7 @@
       (reference "R102") (unit 1) (value "270R") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/f13ded33-56f4-4c39-b1ce-9d4fbf5b36f5"
-      (reference "R103") (unit 1) (value "100R") (footprint "Resistor_SMD:R_2512_6332Metric")
+      (reference "R103") (unit 1) (value "0.1Ω") (footprint "Resistor_SMD:R_2512_6332Metric")
     )
     (path "/d06e768f-7379-46b4-bd72-628e1fe49db1"
       (reference "R104") (unit 1) (value "270R") (footprint "Resistor_SMD:R_0805_2012Metric")
