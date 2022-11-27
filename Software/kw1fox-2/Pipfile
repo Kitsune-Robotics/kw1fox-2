@@ -8,8 +8,14 @@ pysstv = "*"
 pillow = "*"
 pyaudio = "*"
 pi-ina219 = "*"
+kiss = "*"
+aprs = "*"
 
 [dev-packages]
+black = "*"
 
 [requires]
 python_version = "3.10"
+
+[pipenv]
+allow_prereleases = true
