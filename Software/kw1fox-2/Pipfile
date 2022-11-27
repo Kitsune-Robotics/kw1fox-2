@@ -8,8 +8,7 @@ pysstv = "*"
 pillow = "*"
 pyaudio = "*"
 pi-ina219 = "*"
-kiss = "*"
-aprs = "*"
+kiss = {git = "https://github.com/Kitsune-Robotics/kiss", ref = "feat/regressions"}
 
 [dev-packages]
 black = "*"
