@@ -8,8 +8,13 @@ pysstv = "*"
 pillow = "*"
 pyaudio = "*"
 pi-ina219 = "*"
+kiss = {git = "https://github.com/Kitsune-Robotics/kiss", ref = "feat/regressions"}
 
 [dev-packages]
+black = "*"
 
 [requires]
 python_version = "3.10"
+
+[pipenv]
+allow_prereleases = true
