@@ -55,7 +55,9 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|171192499|81500001|2510d08a-0fe6-47b8-8b23-01d84516577d|e0cec7ca-9617-420c-80b0-2433e32e33fe"
+      ],
       "meta": {
         "version": 2
       },
@@ -381,7 +383,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "APRN_Relay.dsn",
       "step": "",
       "vrml": ""
     },
