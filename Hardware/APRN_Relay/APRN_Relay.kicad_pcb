@@ -1808,7 +1808,7 @@
     (tedit 0) (tstamp dea7b97c-fa5f-48bf-848e-a4dd3463ce35)
     (at 147.25 116.25)
     (attr board_only exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "KTSNLOGO" (at 0 0) (layer "F.SilkS")
+    (fp_text reference "KTSNLOGO" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
       (tstamp 1f45cb6f-8451-4deb-813a-8ba21d4c4fbf)
     )
