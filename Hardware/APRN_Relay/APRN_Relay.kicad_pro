@@ -55,7 +55,9 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|171192499|81500001|2510d08a-0fe6-47b8-8b23-01d84516577d|e0cec7ca-9617-420c-80b0-2433e32e33fe"
+      ],
       "meta": {
         "version": 2
       },
@@ -139,9 +141,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "power_pin_not_driven|2476500|317500|cdd24c4c-bff6-4fc8-98ab-8fdf6a6d1b39|00000000-0000-0000-0000-000000000000"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -383,7 +383,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "APRN_Relay.dsn",
       "step": "",
       "vrml": ""
     },
@@ -433,5 +433,10 @@
       ""
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "FULL_REVISION": "v1.0",
+    "ISSUE": "2022-12-13",
+    "KENWOODFOX_3DMODELS": "Hardware/APRN_Relay/Libraries/kenwoodfox-kicad-libraries/3d",
+    "REVISION": "057007d"
+  }
 }

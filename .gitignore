@@ -20,6 +20,7 @@ __pycache__
 *.bck
 *.kicad_pcb-bak
 *.kicad_sch-bak
+*.kicad_pro-bak
 *-backups
 *.kicad_prl
 *.sch-bak
